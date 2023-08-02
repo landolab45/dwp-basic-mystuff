@@ -1,10 +1,10 @@
 <script http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" http-equiv="Pragma" content="no-cache" defer>
 
-const sisn_ws_username = "appadmin";
-const sisn_ws_password = "password";
-const sisn_ws_url = "http://192.168.50.91:8080";
-const sisn_ws_hostname = "labrhelrmd02";
-const sisn_ws_name = "KAI_Get_Asset_UsedBy";
+const sisn_ws_username = "<USERNAME_REMEDY>";
+const sisn_ws_password = "<PASSWORD_REMEDY>";
+const sisn_ws_url = "<URL_MIDTIER_REMEDY>:<URL_MIDTIER_PORT>";
+const sisn_ws_hostname = "<HOSTNAME_REMEDY>";
+const sisn_ws_name = "<WEBSERVICE_NAME>";
 
 var sisn_currentUserId = localStorage['currentUserId'];
 var sisn_flag_generate = 0;
