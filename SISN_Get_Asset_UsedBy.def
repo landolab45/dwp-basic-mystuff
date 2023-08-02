@@ -1,0 +1,481 @@
+char-set: UTF-8
+#
+#  File exported Wed Aug 02 09:23:19 WIB 2023
+#
+begin container
+   name           : SISN_Get_Asset_UsedBy
+   type           : 5
+   num-references : 8
+   timestamp      : 1690942897
+   owner          : Demo
+   owning-obj     : 1\2\25\AST:AssetPeople_AssetBase\
+   last-changed   : Demo
+   export-version : 12
+   permission     : 0\1
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\22\Remedy Asset Inventory\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\226\<?xml version="1.0" encoding="UTF-8" standalone="no"?><portProperties name="New_Port_0"><portType name=""/><xmlSchemaSource name="embedded"/>
+   value          : <externalSchema name=""/><portName name="New_Port_0"/></portProperties>\
+   ref-groups     : 0 
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\521\<?xml version="1.0" encoding="UTF-8" standalone="no"?><operation name="New_GetList_Operation_0" qualification="XPATH(/ROOT/Qualification)" type="
+   value          : get" ><arOptions><setOptions><type>setFirst</type><documentType>full</documentType></setOptions></arOptions><inputMapping name="InputMappin
+   value          : g1" namespace="SISN_Get_Asset_UsedBy" topLevelElement="New_GetList_Operation_0"/><outputMapping name="OutputMapping1" namespace="SISN_Get_Asset_UsedBy"
+   value          :  topLevelElement="New_GetList_Operation_0Response"/></operation>\
+   ref-groups     : 0 
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\0\\
+   ref-groups     : 0 
+}
+reference {
+   type           : 32843
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 0 
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\39656\<?xml version="1.0" encoding="UTF-8" standalone="no"?><arDocMapping arDocVersion="11" externalSchema="" generateXsiType="false" name="OutputMap
+   value          : ping1" schemaSource="generated" ><element all="false" dataType="ROOT" default="" maxOccurs="1" minOccurs="1" name="ROOT" targetNamespace="urn:SISN_Get_
+   value          : Asset_UsedBy"><formMapping><form distinguishingKeyId="1" foreignKeyId="1" formName="AST:AssetPeople_AssetBase" primaryKeyId="1"/><element all="" da
+   value          : taType="" default="" maxOccurs="unbounded" minOccurs="1" name="getListValues"><element dataType="string" default="" maxOccurs="1" minOccurs="1" name="R
+   value          : equest_ID" nillable="false" xmlType="false"><fieldMapping arFieldId="1" arFieldPart="" defaultAttachName=""/></element><element dataType="string" d
+   value          : efault="$USER$" maxOccurs="1" minOccurs="1" name="Submitter" nillable="false" xmlType="false"><fieldMapping arFieldId="2" arFieldPart="" defaultAttachN
+   value          : ame=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Assigned_To" nillable="false" xmlType="false"><fieldMappi
+   value          : ng arFieldId="4" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="New" enumValues="New,Delete" maxOccurs="1" minOcc
+   value          : urs="1" name="Status" nillable="false" xmlType="false"><fieldMapping arFieldId="7" arFieldPart="" defaultAttachName=""/></element><element dataType
+   value          : ="string" default="x" maxOccurs="1" minOccurs="1" name="Short_Description" nillable="false" xmlType="false"><fieldMapping arFieldId="8" arFieldPart="" 
+   value          : defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Status-History" nillable="false" xmlType="fal
+   value          : se"><fieldMapping arFieldId="15" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" n
+   value          : ame="RLA" nillable="false" xmlType="false"><fieldMapping arFieldId="112" arFieldPart="" defaultAttachName=""/></element><element dataType="string" 
+   value          : default="" maxOccurs="1" minOccurs="0" name="InstanceId" nillable="false" xmlType="false"><fieldMapping arFieldId="179" arFieldPart="" defaultAttachNam
+   value          : e=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="WriteSecurity" nillable="false" xmlType="false"><fieldMappi
+   value          : ng arFieldId="60513" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Vendor_As
+   value          : signee_Groups" nillable="false" xmlType="false"><fieldMapping arFieldId="60900" arFieldPart="" defaultAttachName=""/></element><element dataType="s
+   value          : tring" default="" maxOccurs="1" minOccurs="0" name="Vendor_Assignee_Groups_parent" nillable="false" xmlType="false"><fieldMapping arFieldId="60901" arF
+   value          : ieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="WriteSecurity_parent" nillable="f
+   value          : alse" xmlType="false"><fieldMapping arFieldId="60914" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccur
+   value          : s="1" minOccurs="0" name="RLA_parent" nillable="false" xmlType="false"><fieldMapping arFieldId="60989" arFieldPart="" defaultAttachName=""/></element
+   value          : ><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Glb_zTmpPageFieldSelected" nillable="false" xmlType="false"><fieldMapping ar
+   value          : FieldId="1706300" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1G_DefaultC
+   value          : ompany" nillable="false" xmlType="false"><fieldMapping arFieldId="1714000" arFieldPart="" defaultAttachName=""/></element><element dataType="decima
+   value          : l" default="" maxOccurs="1" minOccurs="0" name="SalesTax_currencyValue" nillable="false" xmlType="false"><fieldMapping arFieldId="27012011" arFieldPart
+   value          : ="currencyValue" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="SalesTax_currencyCode" nilla
+   value          : ble="false" xmlType="false"><fieldMapping arFieldId="27012011" arFieldPart="currencyCode" defaultAttachName=""/></element><element dataType="dateTi
+   value          : me" default="" maxOccurs="1" minOccurs="0" name="SalesTax_currencyConversionDate" nillable="false" xmlType="false"><fieldMapping arFieldId="27012011" a
+   value          : rFieldPart="currencyConversionDate" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="VendorApp
+   value          : lication" nillable="false" xmlType="false"><fieldMapping arFieldId="100000093" arFieldPart="" defaultAttachName=""/></element><element dataType="st
+   value          : ring" default="" maxOccurs="1" minOccurs="0" name="SerialNumber" nillable="false" xmlType="false"><fieldMapping arFieldId="200000001" arFieldPart="" de
+   value          : faultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Category" nillable="false" xmlType="false"><f
+   value          : ieldMapping arFieldId="200000003" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" na
+   value          : me="Type" nillable="false" xmlType="false"><fieldMapping arFieldId="200000004" arFieldPart="" defaultAttachName=""/></element><element dataType="st
+   value          : ring" default="" maxOccurs="1" minOccurs="0" name="Item" nillable="false" xmlType="false"><fieldMapping arFieldId="200000005" arFieldPart="" defaultAtt
+   value          : achName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Department" nillable="false" xmlType="false"><fieldMa
+   value          : pping arFieldId="200000006" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Si
+   value          : te" nillable="false" xmlType="false"><fieldMapping arFieldId="200000007" arFieldPart="" defaultAttachName=""/></element><element dataType="string" 
+   value          : default="" maxOccurs="1" minOccurs="0" name="Region" nillable="false" xmlType="false"><fieldMapping arFieldId="200000012" arFieldPart="" defaultAttachN
+   value          : ame=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="PartNumber" nillable="false" xmlType="false"><fieldMappin
+   value          : g arFieldId="200000013" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="1" name="Name" 
+   value          : nillable="false" xmlType="false"><fieldMapping arFieldId="200000020" arFieldPart="" defaultAttachName=""/></element><element dataType="string" defa
+   value          : ult="" maxOccurs="1" minOccurs="0" name="History" nillable="false" xmlType="false"><fieldMapping arFieldId="200003000" arFieldPart="" defaultAttachName
+   value          : =""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="AssetID" nillable="false" xmlType="false"><fieldMapping arFi
+   value          : eldId="210000000" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="zTmpSchemaNa
+   value          : me" nillable="false" xmlType="false"><fieldMapping arFieldId="230000000" arFieldPart="" defaultAttachName=""/></element><element dataType="string" 
+   value          : default="" maxOccurs="1" minOccurs="0" name="zTmpSchema1" nillable="false" xmlType="false"><fieldMapping arFieldId="230000001" arFieldPart="" defaultAt
+   value          : tachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="zTmpSchema2" nillable="false" xmlType="false"><field
+   value          : Mapping arFieldId="230000003" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="
+   value          : zTmpKeyword" nillable="false" xmlType="false"><fieldMapping arFieldId="230000009" arFieldPart="" defaultAttachName=""/></element><element dataType=
+   value          : "int" default="" maxOccurs="1" minOccurs="0" name="zTmpInteger1" nillable="false" xmlType="false"><fieldMapping arFieldId="230000121" arFieldPart="" de
+   value          : faultAttachName=""/></element><element dataType="int" default="" maxOccurs="1" minOccurs="0" name="zTmpInteger2" nillable="false" xmlType="false"><
+   value          : fieldMapping arFieldId="230000122" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" n
+   value          : ame="Description" nillable="false" xmlType="false"><fieldMapping arFieldId="240000007" arFieldPart="" defaultAttachName=""/></element><element data
+   value          : Type="string" default="" maxOccurs="1" minOccurs="0" name="Notes" nillable="false" xmlType="false"><fieldMapping arFieldId="240000008" arFieldPart="" d
+   value          : efaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Model" nillable="false" xmlType="false"><fie
+   value          : ldMapping arFieldId="240001002" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name
+   value          : ="ManufacturerName" nillable="false" xmlType="false"><fieldMapping arFieldId="240001003" arFieldPart="" defaultAttachName=""/></element><element da
+   value          : taType="string" default="" maxOccurs="1" minOccurs="0" name="ManufacturerID" nillable="false" xmlType="false"><fieldMapping arFieldId="240001004" arFie
+   value          : ldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="VersionNumber" nillable="false" xml
+   value          : Type="false"><fieldMapping arFieldId="240001005" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1"
+   value          :  minOccurs="0" name="SupplierName" nillable="false" xmlType="false"><fieldMapping arFieldId="240001008" arFieldPart="" defaultAttachName=""/></elemen
+   value          : t><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="SupplierID" nillable="false" xmlType="false"><fieldMapping arFieldId="24000
+   value          : 1009" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="Purchase,Lease,Off-Lease,Rented,Transferred,N/
+   value          : A" maxOccurs="1" minOccurs="0" name="AcquiredMethod" nillable="true" xmlType="false"><fieldMapping arFieldId="260000000" arFieldPart="" defaultAttachNa
+   value          : me=""/></element><element dataType="string" default="" enumValues="None,Alert,Email,User Default" maxOccurs="1" minOccurs="0" name="Notification_Meth
+   value          : od" nillable="true" xmlType="false"><fieldMapping arFieldId="260000001" arFieldPart="" defaultAttachName=""/></element><element dataType="string" d
+   value          : efault="" maxOccurs="1" minOccurs="0" name="SystemRole" nillable="false" xmlType="false"><fieldMapping arFieldId="260000002" arFieldPart="" defaultAtta
+   value          : chName=""/></element><element dataType="string" default="" enumValues="Down,Scheduled-Down,Up" maxOccurs="1" minOccurs="0" name="CurrentState" nillab
+   value          : le="true" xmlType="false"><fieldMapping arFieldId="260000003" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" 
+   value          : maxOccurs="1" minOccurs="0" name="Floor" nillable="false" xmlType="false"><fieldMapping arFieldId="260000004" arFieldPart="" defaultAttachName=""/></
+   value          : element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Room" nillable="false" xmlType="false"><fieldMapping arFieldId="26000
+   value          : 0005" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="InstanceIDApp" nillable=
+   value          : "false" xmlType="false"><fieldMapping arFieldId="260000030" arFieldPart="" defaultAttachName=""/></element><element dataType="dateTime" default="" 
+   value          : maxOccurs="1" minOccurs="0" name="InstallationDate" nillable="false" xmlType="false"><fieldMapping arFieldId="260000104" arFieldPart="" defaultAttachNa
+   value          : me=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="AccountingCode" nillable="false" xmlType="false"><fieldMap
+   value          : ping arFieldId="260100001" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Log
+   value          : in_Name" nillable="false" xmlType="false"><fieldMapping arFieldId="260100002" arFieldPart="" defaultAttachName=""/></element><element dataType="str
+   value          : ing" default="" maxOccurs="1" minOccurs="0" name="Full_Name" nillable="false" xmlType="false"><fieldMapping arFieldId="260100003" arFieldPart="" defaul
+   value          : tAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="TagNumber" nillable="false" xmlType="false"><fiel
+   value          : dMapping arFieldId="260100004" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="ALL,Duplicate of,Orig
+   value          : inal of,Peer,Uses,Used by,Owns,Owned by,Supports,Supported by,Connected to,Backs up,Backed up by,Upstream,Downstream,Caused,Caused by,Corrected by,Correc
+   value          : ts,Initiates,Initiated by,Runs on,Runs,Orders,Ordered by,Investigates,Investigated by,Re-opened by,Re-opened from,Created,Created by,Attached to,Baseline
+   value          :  of,Baselined by,Related to,Upgrades,Upgraded by,Manages,Managed by,Restores,Restored by,Repairs,Repaired by,Predecessor of,Successor of,License to,Licen
+   value          : se for,Resolved,Resolved by,Cross Referenced to,Consists of,Member of,Hosts,Hosted by,Authenticates,Authenticated by,Stores,Stored in,Identified,Identifi
+   value          : ed by,Successor,Predecessor,Impacted by,Impacts,Incompatible with,Compatible with,Installs,Installed by,Moves,Moved by,Changes,Changed by,Removes,Removed
+   value          :  by,Approves,Approved by,Terms and Conditions of,Terms and Conditions for,Bundles,Bundled by,Stocks,Stock of,Dependent" maxOccurs="1" minOccurs="1" name=
+   value          : "Role" nillable="true" xmlType="false"><fieldMapping arFieldId="260100005" arFieldPart="" defaultAttachName=""/></element><element dataType="string
+   value          : " default="" maxOccurs="1" minOccurs="1" name="PeopleGroup_Form_Entry_ID" nillable="false" xmlType="false"><fieldMapping arFieldId="260100006" arFieldP
+   value          : art="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="CostCenter" nillable="false" xmlType="
+   value          : false"><fieldMapping arFieldId="260100007" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOc
+   value          : curs="0" name="Asset_ID" nillable="false" xmlType="false"><fieldMapping arFieldId="260100008" arFieldPart="" defaultAttachName=""/></element><eleme
+   value          : nt dataType="string" default="" maxOccurs="1" minOccurs="0" name="Asset_Entry-ID" nillable="false" xmlType="false"><fieldMapping arFieldId="260100009" 
+   value          : arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Notification_Address" nillable
+   value          : ="false" xmlType="false"><fieldMapping arFieldId="260100010" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" m
+   value          : axOccurs="1" minOccurs="0" name="Group_Id" nillable="false" xmlType="false"><fieldMapping arFieldId="260100011" arFieldPart="" defaultAttachName=""/>
+   value          : </element><element dataType="string" default="" enumValues="Support Group,People,People Organization" maxOccurs="1" minOccurs="0" name="IndividualOrG
+   value          : roup" nillable="true" xmlType="false"><fieldMapping arFieldId="260100012" arFieldPart="" defaultAttachName=""/></element><element dataType="string"
+   value          :  default="" maxOccurs="1" minOccurs="1" name="Form_Type" nillable="false" xmlType="false"><fieldMapping arFieldId="260100013" arFieldPart="" defaultAtt
+   value          : achName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="NotifyPerson" nillable="false" xmlType="false"><field
+   value          : Mapping arFieldId="260100014" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="
+   value          : BackupAssetID" nillable="false" xmlType="false"><fieldMapping arFieldId="260100015" arFieldPart="" defaultAttachName=""/></element><element dataTyp
+   value          : e="string" default="" maxOccurs="1" minOccurs="0" name="Notification_Message" nillable="false" xmlType="false"><fieldMapping arFieldId="260100021" arFi
+   value          : eldPart="" defaultAttachName=""/></element><element dataType="int" default="" maxOccurs="1" minOccurs="0" name="UsersAffected" nillable="false" xmlTy
+   value          : pe="false"><fieldMapping arFieldId="260400003" arFieldPart="" defaultAttachName=""/></element><element dataType="int" default="" maxOccurs="1" minO
+   value          : ccurs="0" name="QuantityInStock" nillable="false" xmlType="false"><fieldMapping arFieldId="260442101" arFieldPart="" defaultAttachName=""/></element>
+   value          : <element dataType="decimal" default="" maxOccurs="1" minOccurs="0" name="BookValue_currencyValue" nillable="false" xmlType="false"><fieldMapping arFi
+   value          : eldId="260600001" arFieldPart="currencyValue" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name=
+   value          : "BookValue_currencyCode" nillable="false" xmlType="false"><fieldMapping arFieldId="260600001" arFieldPart="currencyCode" defaultAttachName=""/></elem
+   value          : ent><element dataType="dateTime" default="" maxOccurs="1" minOccurs="0" name="BookValue_currencyConversionDate" nillable="false" xmlType="false"><fie
+   value          : ldMapping arFieldId="260600001" arFieldPart="currencyConversionDate" defaultAttachName=""/></element><element dataType="dateTime" default="" maxOccur
+   value          : s="1" minOccurs="0" name="AvailableDate" nillable="false" xmlType="false"><fieldMapping arFieldId="260700001" arFieldPart="" defaultAttachName=""/></
+   value          : element><element dataType="dateTime" default="" maxOccurs="1" minOccurs="0" name="ReturnDate" nillable="false" xmlType="false"><fieldMapping arFieldI
+   value          : d="260700002" arFieldPart="" defaultAttachName=""/></element><element dataType="dateTime" default="" maxOccurs="1" minOccurs="0" name="ReceivedDate" 
+   value          : nillable="false" xmlType="false"><fieldMapping arFieldId="260700003" arFieldPart="" defaultAttachName=""/></element><element dataType="dateTime" de
+   value          : fault="" maxOccurs="1" minOccurs="0" name="PurchaseDate" nillable="false" xmlType="false"><fieldMapping arFieldId="260700004" arFieldPart="" defaultAtt
+   value          : achName=""/></element><element dataType="string" default="" enumValues="Yes,No,N/A" maxOccurs="1" minOccurs="0" name="FixedAsset" nillable="true" xml
+   value          : Type="false"><fieldMapping arFieldId="260800002" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1"
+   value          :  minOccurs="0" name="Configuration" nillable="false" xmlType="false"><fieldMapping arFieldId="260800052" arFieldPart="" defaultAttachName=""/></eleme
+   value          : nt><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="RequisitionID" nillable="false" xmlType="false"><fieldMapping arFieldId="2
+   value          : 63000017" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="PRInstanceID" nillab
+   value          : le="false" xmlType="false"><fieldMapping arFieldId="263000050" arFieldPart="" defaultAttachName=""/></element><element dataType="decimal" default="
+   value          : " maxOccurs="1" minOccurs="0" name="UnitPrice_currencyValue" nillable="false" xmlType="false"><fieldMapping arFieldId="270002010" arFieldPart="currency
+   value          : Value" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="UnitPrice_currencyCode" nillable="fals
+   value          : e" xmlType="false"><fieldMapping arFieldId="270002010" arFieldPart="currencyCode" defaultAttachName=""/></element><element dataType="dateTime" defa
+   value          : ult="" maxOccurs="1" minOccurs="0" name="UnitPrice_currencyConversionDate" nillable="false" xmlType="false"><fieldMapping arFieldId="270002010" arField
+   value          : Part="currencyConversionDate" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="CostType" nilla
+   value          : ble="false" xmlType="false"><fieldMapping arFieldId="270002019" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="
+   value          : " maxOccurs="1" minOccurs="0" name="zTmpInstanceID1" nillable="false" xmlType="false"><fieldMapping arFieldId="300230700" arFieldPart="" defaultAttachN
+   value          : ame=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="zTmpInstanceID2" nillable="false" xmlType="false"><fieldM
+   value          : apping arFieldId="300230800" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="A
+   value          : dditionalDetails" nillable="false" xmlType="false"><fieldMapping arFieldId="300340400" arFieldPart="" defaultAttachName=""/></element><element data
+   value          : Type="string" default="" enumValues="Audit Schedule,Maintenance Schedule,Decommission Schedule" maxOccurs="1" minOccurs="0" name="ScheduleType" nillable=
+   value          : "true" xmlType="false"><fieldMapping arFieldId="300421900" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enu
+   value          : mValues="Hardware,Software,Service,Business Process" maxOccurs="1" minOccurs="0" name="AssetClass" nillable="true" xmlType="false"><fieldMapping arFiel
+   value          : dId="300483500" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="ReturnReceiptI
+   value          : D" nillable="false" xmlType="false"><fieldMapping arFieldId="300557000" arFieldPart="" defaultAttachName=""/></element><element dataType="string" d
+   value          : efault="" maxOccurs="1" minOccurs="0" name="LogicalID" nillable="false" xmlType="false"><fieldMapping arFieldId="300632000" arFieldPart="" defaultAttac
+   value          : hName=""/></element><element dataType="string" default="" enumValues="Managed by,Owned by,Used by,Supported by,Approved by" maxOccurs="1" minOccurs="
+   value          : 0" name="UserOwner_Radio_Button" nillable="true" xmlType="false"><fieldMapping arFieldId="300776800" arFieldPart="" defaultAttachName=""/></element>
+   value          : <element dataType="string" default="" enumValues="Yes,No" maxOccurs="1" minOccurs="0" name="Depreciated" nillable="true" xmlType="false"><fieldMappin
+   value          : g arFieldId="300826900" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="Asset Manager,Owner,User" ma
+   value          : xOccurs="1" minOccurs="0" name="zRoleKey" nillable="true" xmlType="false"><fieldMapping arFieldId="300839200" arFieldPart="" defaultAttachName=""/></
+   value          : element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="OwnerName" nillable="false" xmlType="false"><fieldMapping arFieldId="
+   value          : 301002900" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="Yes,No" maxOccurs="1" minOccurs="0" name=
+   value          : "Inventory" nillable="true" xmlType="false"><fieldMapping arFieldId="301004200" arFieldPart="" defaultAttachName=""/></element><element dataType="s
+   value          : tring" default="" maxOccurs="1" minOccurs="0" name="InstanceUsedBy" nillable="false" xmlType="false"><fieldMapping arFieldId="301071700" arFieldPart=""
+   value          :  defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="AssetInstanceId" nillable="false" xmlType="f
+   value          : alse"><fieldMapping arFieldId="301104100" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOcc
+   value          : urs="0" name="PeopleGroupInstanceID" nillable="false" xmlType="false"><fieldMapping arFieldId="301104200" arFieldPart="" defaultAttachName=""/></elem
+   value          : ent><element dataType="decimal" default="" maxOccurs="1" minOccurs="0" name="Cost_currencyValue" nillable="false" xmlType="false"><fieldMapping arFie
+   value          : ldId="301164700" arFieldPart="currencyValue" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="
+   value          : Cost_currencyCode" nillable="false" xmlType="false"><fieldMapping arFieldId="301164700" arFieldPart="currencyCode" defaultAttachName=""/></element>
+   value          : <element dataType="dateTime" default="" maxOccurs="1" minOccurs="0" name="Cost_currencyConversionDate" nillable="false" xmlType="false"><fieldMapping
+   value          :  arFieldId="301164700" arFieldPart="currencyConversionDate" defaultAttachName=""/></element><element dataType="string" default="" enumValues="PRIORIT
+   value          : Y_5,PRIORITY_4,PRIORITY_3,PRIORITY_2,PRIORITY_1" maxOccurs="1" minOccurs="0" name="Priority" nillable="true" xmlType="false"><fieldMapping arFieldId="3
+   value          : 01172600" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="AccountID" nillable=
+   value          : "false" xmlType="false"><fieldMapping arFieldId="301186800" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" ma
+   value          : xOccurs="1" minOccurs="0" name="AssetSchemaName" nillable="false" xmlType="false"><fieldMapping arFieldId="301199600" arFieldPart="" defaultAttachName=
+   value          : ""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_ApprovalProcessName" nillable="false" xmlType="false"><fi
+   value          : eldMapping arFieldId="301322100" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" nam
+   value          : e="APJ_EntryID" nillable="false" xmlType="false"><fieldMapping arFieldId="301328200" arFieldPart="" defaultAttachName=""/></element><element dataTy
+   value          : pe="string" default="" maxOccurs="1" minOccurs="0" name="APJ_RequestID" nillable="false" xmlType="false"><fieldMapping arFieldId="301328400" arFieldPar
+   value          : t="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="APJ_ClassID" nillable="false" xmlType="f
+   value          : alse"><fieldMapping arFieldId="301328500" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="Deployed" enumValues="
+   value          : Ordered,Received,Being Assembled,Deployed,In Repair,Down,End of Life,Transferred,Delete,In Inventory,On Loan,Disposed,Reserved,Return to Vendor" maxOccur
+   value          : s="1" minOccurs="1" name="APJ_AssetLifecycleStatus" nillable="true" xmlType="false"><fieldMapping arFieldId="301328600" arFieldPart="" defaultAttachNam
+   value          : e=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="APJ_Department" nillable="false" xmlType="false"><fieldMapp
+   value          : ing arFieldId="301328700" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="APJ_
+   value          : AssigneeGroupPermissions" nillable="false" xmlType="false"><fieldMapping arFieldId="301328800" arFieldPart="" defaultAttachName=""/></element><elem
+   value          : ent dataType="string" default="" maxOccurs="1" minOccurs="0" name="APJ_Building" nillable="false" xmlType="false"><fieldMapping arFieldId="301328900" a
+   value          : rFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="Yes,No,N/A" maxOccurs="1" minOccurs="0" name="APJ_Sup
+   value          : ported" nillable="true" xmlType="false"><fieldMapping arFieldId="301329000" arFieldPart="" defaultAttachName=""/></element><element dataType="strin
+   value          : g" default="" maxOccurs="1" minOccurs="0" name="APJ_BudgetCode" nillable="false" xmlType="false"><fieldMapping arFieldId="301329100" arFieldPart="" def
+   value          : aultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="APJ_ProjectNumber" nillable="false" xmlType="fal
+   value          : se"><fieldMapping arFieldId="301329200" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccur
+   value          : s="0" name="APJ_Organization" nillable="false" xmlType="false"><fieldMapping arFieldId="301329300" arFieldPart="" defaultAttachName=""/></element><
+   value          : element dataType="string" default="n/a" maxOccurs="1" minOccurs="1" name="APJ_ShortDescription" nillable="false" xmlType="false"><fieldMapping arFieldI
+   value          : d="301338100" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Company" nil
+   value          : lable="false" xmlType="false"><fieldMapping arFieldId="301352400" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default
+   value          : ="" maxOccurs="1" minOccurs="0" name="z1D_RequestID01" nillable="false" xmlType="false"><fieldMapping arFieldId="301356600" arFieldPart="" defaultAttac
+   value          : hName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_FormName" nillable="false" xmlType="false"><fieldMa
+   value          : pping arFieldId="301361700" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="Yes" maxOccurs="1" minOc
+   value          : curs="0" name="z1D_Active_Approval" nillable="true" xmlType="false"><fieldMapping arFieldId="301422600" arFieldPart="" defaultAttachName=""/></elemen
+   value          : t><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_ProductName" nillable="false" xmlType="false"><fieldMapping arFieldId="
+   value          : 301426500" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="Yes,No" maxOccurs="1" minOccurs="0" name=
+   value          : "Row_Level_Access_Enabled" nillable="true" xmlType="false"><fieldMapping arFieldId="301497700" arFieldPart="" defaultAttachName=""/></element><elem
+   value          : ent dataType="string" default="" enumValues="Yes,No" maxOccurs="1" minOccurs="0" name="PrimaryContact" nillable="true" xmlType="false"><fieldMapping ar
+   value          : FieldId="301501300" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="Yes,No" maxOccurs="1" minOccurs=
+   value          : "0" name="AccessPermitted" nillable="true" xmlType="false"><fieldMapping arFieldId="301501400" arFieldPart="" defaultAttachName=""/></element><elem
+   value          : ent dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_TagNumber" nillable="false" xmlType="false"><fieldMapping arFieldId="301569800" 
+   value          : arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_ConfirmGroup" nillable="fa
+   value          : lse" xmlType="false"><fieldMapping arFieldId="304329451" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOc
+   value          : curs="1" minOccurs="0" name="AssetClassId" nillable="false" xmlType="false"><fieldMapping arFieldId="400079600" arFieldPart="" defaultAttachName=""/>
+   value          : </element><element dataType="string" default="ID00C04F651D063b42125a04548561" maxOccurs="1" minOccurs="0" name="Application_GUID" nillable="false" xm
+   value          : lType="false"><fieldMapping arFieldId="400081600" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1
+   value          : " minOccurs="0" name="StaticSuperclassId" nillable="false" xmlType="false"><fieldMapping arFieldId="400103900" arFieldPart="" defaultAttachName=""/><
+   value          : /element><element dataType="string" default="" maxOccurs="1" minOccurs="1" name="DatasetId" nillable="false" xmlType="false"><fieldMapping arFieldId=
+   value          : "400127400" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="No,Yes" maxOccurs="1" minOccurs="0" name
+   value          : ="MarkAsDeleted" nillable="true" xmlType="false"><fieldMapping arFieldId="400129100" arFieldPart="" defaultAttachName=""/></element><element dataTy
+   value          : pe="string" default="0" maxOccurs="1" minOccurs="1" name="ReconciliationIdentity" nillable="false" xmlType="false"><fieldMapping arFieldId="400129200" 
+   value          : arFieldPart="" defaultAttachName=""/></element><element dataType="int" default="0" maxOccurs="1" minOccurs="0" name="StaticSingleton" nillable="false
+   value          : " xmlType="false"><fieldMapping arFieldId="400129500" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccur
+   value          : s="1" minOccurs="0" name="UserDisplayObjectName" nillable="false" xmlType="false"><fieldMapping arFieldId="490021100" arFieldPart="" defaultAttachName=
+   value          : ""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Company" nillable="false" xmlType="false"><fieldMapping arFie
+   value          : ldId="1000000001" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="Organization
+   value          : " nillable="false" xmlType="false"><fieldMapping arFieldId="1000000010" arFieldPart="" defaultAttachName=""/></element><element dataType="string" d
+   value          : efault="" maxOccurs="1" minOccurs="0" name="z1D_Char01" nillable="false" xmlType="false"><fieldMapping arFieldId="1000000058" arFieldPart="" defaultAtt
+   value          : achName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Char02" nillable="false" xmlType="false"><fieldMa
+   value          : pping arFieldId="1000000066" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z
+   value          : 1D_Char03" nillable="false" xmlType="false"><fieldMapping arFieldId="1000000067" arFieldPart="" defaultAttachName=""/></element><element dataType="
+   value          : string" default="" maxOccurs="1" minOccurs="0" name="z1D_Char04" nillable="false" xmlType="false"><fieldMapping arFieldId="1000000068" arFieldPart="" d
+   value          : efaultAttachName=""/></element><element dataType="int" default="" maxOccurs="1" minOccurs="0" name="z1D_Integer01" nillable="false" xmlType="false">
+   value          : <fieldMapping arFieldId="1000000077" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="
+   value          : 0" name="Contact_Company" nillable="false" xmlType="false"><fieldMapping arFieldId="1000000082" arFieldPart="" defaultAttachName=""/></element><ele
+   value          : ment dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Char05" nillable="false" xmlType="false"><fieldMapping arFieldId="1000000083" a
+   value          : rFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Char06" nillable="false" xm
+   value          : lType="false"><fieldMapping arFieldId="1000000084" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="
+   value          : 1" minOccurs="0" name="z1D_Char07" nillable="false" xmlType="false"><fieldMapping arFieldId="1000000088" arFieldPart="" defaultAttachName=""/></eleme
+   value          : nt><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Char08" nillable="false" xmlType="false"><fieldMapping arFieldId="1000
+   value          : 000089" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Char09" nillable="
+   value          : false" xmlType="false"><fieldMapping arFieldId="1000000090" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" ma
+   value          : xOccurs="1" minOccurs="0" name="z1D_Char10" nillable="false" xmlType="false"><fieldMapping arFieldId="1000000129" arFieldPart="" defaultAttachName=""/>
+   value          : </element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Char11" nillable="false" xmlType="false"><fieldMapping arFiel
+   value          : dId="1000000130" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Char12" n
+   value          : illable="false" xmlType="false"><fieldMapping arFieldId="1000000131" arFieldPart="" defaultAttachName=""/></element><element dataType="string" defa
+   value          : ult="" maxOccurs="1" minOccurs="0" name="z1D_Char13" nillable="false" xmlType="false"><fieldMapping arFieldId="1000000132" arFieldPart="" defaultAttach
+   value          : Name=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Char14" nillable="false" xmlType="false"><fieldMappi
+   value          : ng arFieldId="1000000133" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_
+   value          : Char15" nillable="false" xmlType="false"><fieldMapping arFieldId="1000000144" arFieldPart="" defaultAttachName=""/></element><element dataType="str
+   value          : ing" default="" enumValues="1-Critical,2-High,3-Medium,4-Low" maxOccurs="1" minOccurs="0" name="Urgency" nillable="true" xmlType="false"><fieldMapping 
+   value          : arFieldId="1000000162" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="1-Extensive/Widespread,2-Sign
+   value          : ificant/Large,3-Moderate/Limited,4-Minor/Localized" maxOccurs="1" minOccurs="0" name="Impact" nillable="true" xmlType="false"><fieldMapping arFieldId="
+   value          : 1000000163" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Company_1" nil
+   value          : lable="false" xmlType="false"><fieldMapping arFieldId="1000000720" arFieldPart="" defaultAttachName=""/></element><element dataType="string" defaul
+   value          : t="" maxOccurs="1" minOccurs="0" name="z1D_Organization" nillable="false" xmlType="false"><fieldMapping arFieldId="1000001718" arFieldPart="" defaultAt
+   value          : tachName=""/></element><element dataType="string" default="" maxOccurs="1" minOccurs="0" name="z1D_Department" nillable="false" xmlType="false"><fi
+   value          : eldMapping arFieldId="1000001719" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="Yes,No" maxOccurs=
+   value          : "1" minOccurs="0" name="UnavailabilityAssignment" nillable="true" xmlType="false"><fieldMapping arFieldId="1000002883" arFieldPart="" defaultAttachName
+   value          : =""/></element><element dataType="string" default="" enumValues="Yes,No" maxOccurs="1" minOccurs="0" name="UnavailabilityAssignmentLock" nillable="tr
+   value          : ue" xmlType="false"><fieldMapping arFieldId="1000002884" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" maxOc
+   value          : curs="1" minOccurs="0" name="z1D_NT_On_Call_Group_Flag" nillable="false" xmlType="false"><fieldMapping arFieldId="1000003714" arFieldPart="" defaultAtt
+   value          : achName=""/></element><element dataType="string" default="" enumValues="ALL,Duplicate of,Original of,Peer,Uses,Used by,Owns,Owned by,Supports,Support
+   value          : ed by,Connected to,Backs up,Backed up by,Upstream,Downstream,Caused,Caused by,Corrected by,Corrects,Initiates,Initiated by,Runs on,Runs,Orders,Ordered by
+   value          : ,Investigates,Investigated by,Re-opened by,Re-opened from,Created,Created by,Attached to,Baseline of,Baselined by,Related to,Upgrades,Upgraded by,Manages
+   value          : ,Managed by,Restores,Restored by,Repairs,Repaired by,Predecessor of,Successor of,License to,License for,Resolved,Resolved by,Cross Referenced to,Consists
+   value          :  of,Member of,Hosts,Hosted by,Authenticates,Authenticated by,Stores,Stored in,Identified,Identified by,Successor,Predecessor,Impacted by,Impacts,Incompat
+   value          : ible with,Compatible with,Installs,Installed by,Moves,Moved by,Changes,Changed by,Removes,Removed by,Approves,Approved by,Terms and Conditions of,Terms a
+   value          : nd Conditions for,Bundles,Bundled by,Stocks,Stock of,Dependent" maxOccurs="1" minOccurs="0" name="z1D_Incident_CI_Association_Type" nillable="true" xmlTy
+   value          : pe="false"><fieldMapping arFieldId="1000005707" arFieldPart="" defaultAttachName=""/></element><element dataType="string" default="" enumValues="AL
+   value          : L,Duplicate of,Original of,Peer,Uses,Used by,Owns,Owned by,Supports,Supported by,Connected to,Backs up,Backed up by,Upstream,Downstream,Caused,Caused by,
+   value          : Corrected by,Corrects,Initiates,Initiated by,Runs on,Runs,Orders,Ordered by,Investigates,Investigated by,Re-opened by,Re-opened from,Created,Created by,A
+   value          : ttached to,Baseline of,Baselined by,Related to,Upgrades,Upgraded by,Manages,Managed by,Restores,Restored by,Repairs,Repaired by,Predecessor of,Successor 
+   value          : of,License to,License for,Resolved,Resolved by,Cross Referenced to,Consists of,Member of,Hosts,Hosted by,Authenticates,Authenticated by,Stores,Stored in,
+   value          : Identified,Identified by,Successor,Predecessor,Impacted by,Impacts,Incompatible with,Compatible with,Installs,Installed by,Moves,Moved by,Changes,Changed
+   value          :  by,Removes,Removed by,Approves,Approved by,Terms and Conditions of,Terms and Conditions for,Bundles,Bundled by,Stocks,Stock of,Dependent" maxOccurs="1" 
+   value          : minOccurs="0" name="z1D_Template_CI_Relation_Type" nillable="true" xmlType="false"><fieldMapping arFieldId="1000005714" arFieldPart="" defaultAttachNam
+   value          : e=""/></element><element dataType="string" default="" enumValues="Proposed,Enabled,Offline,Obsolete,Archive,Delete" maxOccurs="1" minOccurs="0" name=
+   value          : "z1D_Assoc_Status" nillable="true" xmlType="false"><fieldMapping arFieldId="1000005743" arFieldPart="" defaultAttachName=""/></element></element>
+   value          : </formMapping></element></arDocMapping>\
+   ref-groups     : 0 
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\814\<?xml version="1.0" encoding="UTF-8" standalone="no"?><arDocMapping arDocVersion="11" externalSchema="" generateXsiType="false" name="InputMappin
+   value          : g1" schemaSource="generated" ><formMapping><form distinguishingKeyId="1" foreignKeyId="1" formName="" primaryKeyId="1"/><element all="false" dataTy
+   value          : pe="ROOT" default="" maxOccurs="1" minOccurs="1" name="ROOT" targetNamespace="urn:SISN_Get_Asset_UsedBy"><element dataType="string" default="" maxOccur
+   value          : s="1" minOccurs="1" name="Qualification" nillable="false" xmlType="false"/><element dataType="string" default="" maxOccurs="1" minOccurs="1" name="star
+   value          : tRecord" nillable="false" xmlType="false"/><element dataType="string" default="" maxOccurs="1" minOccurs="1" name="maxLimit" nillable="false" xmlType="
+   value          : false"/></element></formMapping></arDocMapping>\
+   ref-groups     : 0 
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\22865\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:SISN_Get_Asset_UsedBy" xmlns:s0="urn:SISN_Get_Asset_UsedBy" xmlns:
+   value          : soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmln
+   value          : s:xsd="http://www.w3.org/2001/XMLSchema"><wsdl:types><xsd:schema elementFormDefault="qualified" targetNamespace="urn:SISN_Get_Asset_UsedBy"><xsd:element 
+   value          : name="New_GetList_Operation_0" type="s0:InputMapping1"/><xsd:complexType name="InputMapping1"><xsd:sequence><xsd:element name="Qualification" type="xsd:s
+   value          : tring"/><xsd:element name="startRecord" type="xsd:string"/><xsd:element name="maxLimit" type="xsd:string"/></xsd:sequence></xsd:complexType><xsd:element 
+   value          : name="New_GetList_Operation_0Response" type="s0:OutputMapping1"/><xsd:complexType name="OutputMapping1"><xsd:sequence><xsd:element maxOccurs="unbounded" 
+   value          : name="getListValues"><xsd:complexType><xsd:sequence><xsd:element name="Request_ID" type="xsd:string"/><xsd:element name="Submitter" type="xsd:string"/><x
+   value          : sd:element minOccurs="0" name="Assigned_To" type="xsd:string"/><xsd:element name="Status" type="s0:StatusType"/><xsd:element name="Short_Description" typ
+   value          : e="xsd:string"/><xsd:element minOccurs="0" name="Status-History" type="xsd:string"/><xsd:element minOccurs="0" name="RLA" type="xsd:string"/><xsd:element
+   value          :  minOccurs="0" name="InstanceId" type="xsd:string"/><xsd:element minOccurs="0" name="WriteSecurity" type="xsd:string"/><xsd:element minOccurs="0" name="V
+   value          : endor_Assignee_Groups" type="xsd:string"/><xsd:element minOccurs="0" name="Vendor_Assignee_Groups_parent" type="xsd:string"/><xsd:element minOccurs="0" n
+   value          : ame="WriteSecurity_parent" type="xsd:string"/><xsd:element minOccurs="0" name="RLA_parent" type="xsd:string"/><xsd:element minOccurs="0" name="Glb_zTmpPa
+   value          : geFieldSelected" type="xsd:string"/><xsd:element minOccurs="0" name="z1G_DefaultCompany" type="xsd:string"/><xsd:element minOccurs="0" name="SalesTax_cur
+   value          : rencyValue" type="xsd:decimal"/><xsd:element minOccurs="0" name="SalesTax_currencyCode" type="xsd:string"/><xsd:element minOccurs="0" name="SalesTax_curr
+   value          : encyConversionDate" type="xsd:dateTime"/><xsd:element minOccurs="0" name="VendorApplication" type="xsd:string"/><xsd:element minOccurs="0" name="SerialNu
+   value          : mber" type="xsd:string"/><xsd:element minOccurs="0" name="Category" type="xsd:string"/><xsd:element minOccurs="0" name="Type" type="xsd:string"/><xsd:ele
+   value          : ment minOccurs="0" name="Item" type="xsd:string"/><xsd:element minOccurs="0" name="Department" type="xsd:string"/><xsd:element minOccurs="0" name="Site" 
+   value          : type="xsd:string"/><xsd:element minOccurs="0" name="Region" type="xsd:string"/><xsd:element minOccurs="0" name="PartNumber" type="xsd:string"/><xsd:eleme
+   value          : nt name="Name" type="xsd:string"/><xsd:element minOccurs="0" name="History" type="xsd:string"/><xsd:element minOccurs="0" name="AssetID" type="xsd:string
+   value          : "/><xsd:element minOccurs="0" name="zTmpSchemaName" type="xsd:string"/><xsd:element minOccurs="0" name="zTmpSchema1" type="xsd:string"/><xsd:element minO
+   value          : ccurs="0" name="zTmpSchema2" type="xsd:string"/><xsd:element minOccurs="0" name="zTmpKeyword" type="xsd:string"/><xsd:element minOccurs="0" name="zTmpInt
+   value          : eger1" type="xsd:int"/><xsd:element minOccurs="0" name="zTmpInteger2" type="xsd:int"/><xsd:element minOccurs="0" name="Description" type="xsd:string"/><x
+   value          : sd:element minOccurs="0" name="Notes" type="xsd:string"/><xsd:element minOccurs="0" name="Model" type="xsd:string"/><xsd:element minOccurs="0" name="Manu
+   value          : facturerName" type="xsd:string"/><xsd:element minOccurs="0" name="ManufacturerID" type="xsd:string"/><xsd:element minOccurs="0" name="VersionNumber" type
+   value          : ="xsd:string"/><xsd:element minOccurs="0" name="SupplierName" type="xsd:string"/><xsd:element minOccurs="0" name="SupplierID" type="xsd:string"/><xsd:ele
+   value          : ment minOccurs="0" name="AcquiredMethod" nillable="true" type="s0:AcquiredMethodType"/><xsd:element minOccurs="0" name="Notification_Method" nillable="tr
+   value          : ue" type="s0:Notification_MethodType"/><xsd:element minOccurs="0" name="SystemRole" type="xsd:string"/><xsd:element minOccurs="0" name="CurrentState" nil
+   value          : lable="true" type="s0:CurrentStateType"/><xsd:element minOccurs="0" name="Floor" type="xsd:string"/><xsd:element minOccurs="0" name="Room" type="xsd:stri
+   value          : ng"/><xsd:element minOccurs="0" name="InstanceIDApp" type="xsd:string"/><xsd:element minOccurs="0" name="InstallationDate" type="xsd:dateTime"/><xsd:elem
+   value          : ent minOccurs="0" name="AccountingCode" type="xsd:string"/><xsd:element minOccurs="0" name="Login_Name" type="xsd:string"/><xsd:element minOccurs="0" nam
+   value          : e="Full_Name" type="xsd:string"/><xsd:element minOccurs="0" name="TagNumber" type="xsd:string"/><xsd:element name="Role" nillable="true" type="s0:RoleTyp
+   value          : e"/><xsd:element name="PeopleGroup_Form_Entry_ID" type="xsd:string"/><xsd:element minOccurs="0" name="CostCenter" type="xsd:string"/><xsd:element minOccu
+   value          : rs="0" name="Asset_ID" type="xsd:string"/><xsd:element minOccurs="0" name="Asset_Entry-ID" type="xsd:string"/><xsd:element minOccurs="0" name="Notificati
+   value          : on_Address" type="xsd:string"/><xsd:element minOccurs="0" name="Group_Id" type="xsd:string"/><xsd:element minOccurs="0" name="IndividualOrGroup" nillable
+   value          : ="true" type="s0:IndividualOrGroupType"/><xsd:element name="Form_Type" type="xsd:string"/><xsd:element minOccurs="0" name="NotifyPerson" type="xsd:string
+   value          : "/><xsd:element minOccurs="0" name="BackupAssetID" type="xsd:string"/><xsd:element minOccurs="0" name="Notification_Message" type="xsd:string"/><xsd:elem
+   value          : ent minOccurs="0" name="UsersAffected" type="xsd:int"/><xsd:element minOccurs="0" name="QuantityInStock" type="xsd:int"/><xsd:element minOccurs="0" name=
+   value          : "BookValue_currencyValue" type="xsd:decimal"/><xsd:element minOccurs="0" name="BookValue_currencyCode" type="xsd:string"/><xsd:element minOccurs="0" name
+   value          : ="BookValue_currencyConversionDate" type="xsd:dateTime"/><xsd:element minOccurs="0" name="AvailableDate" type="xsd:dateTime"/><xsd:element minOccurs="0" 
+   value          : name="ReturnDate" type="xsd:dateTime"/><xsd:element minOccurs="0" name="ReceivedDate" type="xsd:dateTime"/><xsd:element minOccurs="0" name="PurchaseDate"
+   value          :  type="xsd:dateTime"/><xsd:element minOccurs="0" name="FixedAsset" nillable="true" type="s0:FixedAssetType"/><xsd:element minOccurs="0" name="Configurati
+   value          : on" type="xsd:string"/><xsd:element minOccurs="0" name="RequisitionID" type="xsd:string"/><xsd:element minOccurs="0" name="PRInstanceID" type="xsd:string
+   value          : "/><xsd:element minOccurs="0" name="UnitPrice_currencyValue" type="xsd:decimal"/><xsd:element minOccurs="0" name="UnitPrice_currencyCode" type="xsd:strin
+   value          : g"/><xsd:element minOccurs="0" name="UnitPrice_currencyConversionDate" type="xsd:dateTime"/><xsd:element minOccurs="0" name="CostType" type="xsd:string"/
+   value          : ><xsd:element minOccurs="0" name="zTmpInstanceID1" type="xsd:string"/><xsd:element minOccurs="0" name="zTmpInstanceID2" type="xsd:string"/><xsd:element m
+   value          : inOccurs="0" name="AdditionalDetails" type="xsd:string"/><xsd:element minOccurs="0" name="ScheduleType" nillable="true" type="s0:ScheduleTypeType"/><xsd:
+   value          : element minOccurs="0" name="AssetClass" nillable="true" type="s0:AssetClassType"/><xsd:element minOccurs="0" name="ReturnReceiptID" type="xsd:string"/><x
+   value          : sd:element minOccurs="0" name="LogicalID" type="xsd:string"/><xsd:element minOccurs="0" name="UserOwner_Radio_Button" nillable="true" type="s0:UserOwner_
+   value          : Radio_ButtonType"/><xsd:element minOccurs="0" name="Depreciated" nillable="true" type="s0:DepreciatedType"/><xsd:element minOccurs="0" name="zRoleKey" ni
+   value          : llable="true" type="s0:zRoleKeyType"/><xsd:element minOccurs="0" name="OwnerName" type="xsd:string"/><xsd:element minOccurs="0" name="Inventory" nillable
+   value          : ="true" type="s0:DepreciatedType"/><xsd:element minOccurs="0" name="InstanceUsedBy" type="xsd:string"/><xsd:element minOccurs="0" name="AssetInstanceId" 
+   value          : type="xsd:string"/><xsd:element minOccurs="0" name="PeopleGroupInstanceID" type="xsd:string"/><xsd:element minOccurs="0" name="Cost_currencyValue" type="
+   value          : xsd:decimal"/><xsd:element minOccurs="0" name="Cost_currencyCode" type="xsd:string"/><xsd:element minOccurs="0" name="Cost_currencyConversionDate" type="
+   value          : xsd:dateTime"/><xsd:element minOccurs="0" name="Priority" nillable="true" type="s0:PriorityType"/><xsd:element minOccurs="0" name="AccountID" type="xsd:s
+   value          : tring"/><xsd:element minOccurs="0" name="AssetSchemaName" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_ApprovalProcessName" type="xsd:string"/
+   value          : ><xsd:element minOccurs="0" name="APJ_EntryID" type="xsd:string"/><xsd:element minOccurs="0" name="APJ_RequestID" type="xsd:string"/><xsd:element minOccu
+   value          : rs="0" name="APJ_ClassID" type="xsd:string"/><xsd:element name="APJ_AssetLifecycleStatus" nillable="true" type="s0:APJ_AssetLifecycleStatusType"/><xsd:el
+   value          : ement minOccurs="0" name="APJ_Department" type="xsd:string"/><xsd:element minOccurs="0" name="APJ_AssigneeGroupPermissions" type="xsd:string"/><xsd:eleme
+   value          : nt minOccurs="0" name="APJ_Building" type="xsd:string"/><xsd:element minOccurs="0" name="APJ_Supported" nillable="true" type="s0:FixedAssetType"/><xsd:el
+   value          : ement minOccurs="0" name="APJ_BudgetCode" type="xsd:string"/><xsd:element minOccurs="0" name="APJ_ProjectNumber" type="xsd:string"/><xsd:element minOccur
+   value          : s="0" name="APJ_Organization" type="xsd:string"/><xsd:element name="APJ_ShortDescription" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Company
+   value          : " type="xsd:string"/><xsd:element minOccurs="0" name="z1D_RequestID01" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_FormName" type="xsd:string
+   value          : "/><xsd:element minOccurs="0" name="z1D_Active_Approval" nillable="true" type="s0:z1D_Active_ApprovalType"/><xsd:element minOccurs="0" name="z1D_ProductN
+   value          : ame" type="xsd:string"/><xsd:element minOccurs="0" name="Row_Level_Access_Enabled" nillable="true" type="s0:DepreciatedType"/><xsd:element minOccurs="0" 
+   value          : name="PrimaryContact" nillable="true" type="s0:DepreciatedType"/><xsd:element minOccurs="0" name="AccessPermitted" nillable="true" type="s0:DepreciatedTy
+   value          : pe"/><xsd:element minOccurs="0" name="z1D_TagNumber" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_ConfirmGroup" type="xsd:string"/><xsd:elemen
+   value          : t minOccurs="0" name="AssetClassId" type="xsd:string"/><xsd:element default="ID00C04F651D063b42125a04548561" minOccurs="0" name="Application_GUID" type="
+   value          : xsd:string"/><xsd:element minOccurs="0" name="StaticSuperclassId" type="xsd:string"/><xsd:element name="DatasetId" type="xsd:string"/><xsd:element minOcc
+   value          : urs="0" name="MarkAsDeleted" nillable="true" type="s0:MarkAsDeletedType"/><xsd:element name="ReconciliationIdentity" type="xsd:string"/><xsd:element defa
+   value          : ult="0" minOccurs="0" name="StaticSingleton" type="xsd:int"/><xsd:element minOccurs="0" name="UserDisplayObjectName" type="xsd:string"/><xsd:element minO
+   value          : ccurs="0" name="Company" type="xsd:string"/><xsd:element minOccurs="0" name="Organization" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char01
+   value          : " type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char02" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char03" type="xsd:string"/><xsd
+   value          : :element minOccurs="0" name="z1D_Char04" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Integer01" type="xsd:int"/><xsd:element minOccurs="0" na
+   value          : me="Contact_Company" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char05" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char06" type
+   value          : ="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char07" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char08" type="xsd:string"/><xsd:eleme
+   value          : nt minOccurs="0" name="z1D_Char09" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char10" type="xsd:string"/><xsd:element minOccurs="0" name="z1
+   value          : D_Char11" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char12" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char13" type="xsd:strin
+   value          : g"/><xsd:element minOccurs="0" name="z1D_Char14" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Char15" type="xsd:string"/><xsd:element minOccur
+   value          : s="0" name="Urgency" nillable="true" type="s0:UrgencyType"/><xsd:element minOccurs="0" name="Impact" nillable="true" type="s0:ImpactType"/><xsd:element m
+   value          : inOccurs="0" name="z1D_Company_1" type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Organization" type="xsd:string"/><xsd:element minOccurs="0" nam
+   value          : e="z1D_Department" type="xsd:string"/><xsd:element minOccurs="0" name="UnavailabilityAssignment" nillable="true" type="s0:DepreciatedType"/><xsd:element 
+   value          : minOccurs="0" name="UnavailabilityAssignmentLock" nillable="true" type="s0:DepreciatedType"/><xsd:element minOccurs="0" name="z1D_NT_On_Call_Group_Flag" 
+   value          : type="xsd:string"/><xsd:element minOccurs="0" name="z1D_Incident_CI_Association_Type" nillable="true" type="s0:RoleType"/><xsd:element minOccurs="0" name
+   value          : ="z1D_Template_CI_Relation_Type" nillable="true" type="s0:RoleType"/><xsd:element minOccurs="0" name="z1D_Assoc_Status" nillable="true" type="s0:z1D_Asso
+   value          : c_StatusType"/></xsd:sequence></xsd:complexType></xsd:element></xsd:sequence></xsd:complexType><xsd:simpleType name="StatusType"><xsd:restriction base="x
+   value          : sd:string"><xsd:enumeration value="New"/><xsd:enumeration value="Delete"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="AcquiredMethodType"><x
+   value          : sd:restriction base="xsd:string"><xsd:enumeration value="Purchase"/><xsd:enumeration value="Lease"/><xsd:enumeration value="Off-Lease"/><xsd:enumeration 
+   value          : value="Rented"/><xsd:enumeration value="Transferred"/><xsd:enumeration value="N/A"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="Notification
+   value          : _MethodType"><xsd:restriction base="xsd:string"><xsd:enumeration value="None"/><xsd:enumeration value="Alert"/><xsd:enumeration value="Email"/><xsd:enume
+   value          : ration value="User Default"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="CurrentStateType"><xsd:restriction base="xsd:string"><xsd:enumerati
+   value          : on value="Down"/><xsd:enumeration value="Scheduled-Down"/><xsd:enumeration value="Up"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="RoleType"
+   value          : ><xsd:restriction base="xsd:string"><xsd:enumeration value="ALL"/><xsd:enumeration value="Duplicate of"/><xsd:enumeration value="Original of"/><xsd:enume
+   value          : ration value="Peer"/><xsd:enumeration value="Uses"/><xsd:enumeration value="Used by"/><xsd:enumeration value="Owns"/><xsd:enumeration value="Owned by"/><
+   value          : xsd:enumeration value="Supports"/><xsd:enumeration value="Supported by"/><xsd:enumeration value="Connected to"/><xsd:enumeration value="Backs up"/><xsd:e
+   value          : numeration value="Backed up by"/><xsd:enumeration value="Upstream"/><xsd:enumeration value="Downstream"/><xsd:enumeration value="Caused"/><xsd:enumeratio
+   value          : n value="Caused by"/><xsd:enumeration value="Corrected by"/><xsd:enumeration value="Corrects"/><xsd:enumeration value="Initiates"/><xsd:enumeration value
+   value          : ="Initiated by"/><xsd:enumeration value="Runs on"/><xsd:enumeration value="Runs"/><xsd:enumeration value="Orders"/><xsd:enumeration value="Ordered by"/><
+   value          : xsd:enumeration value="Investigates"/><xsd:enumeration value="Investigated by"/><xsd:enumeration value="Re-opened by"/><xsd:enumeration value="Re-opened 
+   value          : from"/><xsd:enumeration value="Created"/><xsd:enumeration value="Created by"/><xsd:enumeration value="Attached to"/><xsd:enumeration value="Baseline of"/
+   value          : ><xsd:enumeration value="Baselined by"/><xsd:enumeration value="Related to"/><xsd:enumeration value="Upgrades"/><xsd:enumeration value="Upgraded by"/><xs
+   value          : d:enumeration value="Manages"/><xsd:enumeration value="Managed by"/><xsd:enumeration value="Restores"/><xsd:enumeration value="Restored by"/><xsd:enumera
+   value          : tion value="Repairs"/><xsd:enumeration value="Repaired by"/><xsd:enumeration value="Predecessor of"/><xsd:enumeration value="Successor of"/><xsd:enumerat
+   value          : ion value="License to"/><xsd:enumeration value="License for"/><xsd:enumeration value="Resolved"/><xsd:enumeration value="Resolved by"/><xsd:enumeration v
+   value          : alue="Cross Referenced to"/><xsd:enumeration value="Consists of"/><xsd:enumeration value="Member of"/><xsd:enumeration value="Hosts"/><xsd:enumeration va
+   value          : lue="Hosted by"/><xsd:enumeration value="Authenticates"/><xsd:enumeration value="Authenticated by"/><xsd:enumeration value="Stores"/><xsd:enumeration val
+   value          : ue="Stored in"/><xsd:enumeration value="Identified"/><xsd:enumeration value="Identified by"/><xsd:enumeration value="Successor"/><xsd:enumeration value="
+   value          : Predecessor"/><xsd:enumeration value="Impacted by"/><xsd:enumeration value="Impacts"/><xsd:enumeration value="Incompatible with"/><xsd:enumeration value=
+   value          : "Compatible with"/><xsd:enumeration value="Installs"/><xsd:enumeration value="Installed by"/><xsd:enumeration value="Moves"/><xsd:enumeration value="Move
+   value          : d by"/><xsd:enumeration value="Changes"/><xsd:enumeration value="Changed by"/><xsd:enumeration value="Removes"/><xsd:enumeration value="Removed by"/><xsd
+   value          : :enumeration value="Approves"/><xsd:enumeration value="Approved by"/><xsd:enumeration value="Terms and Conditions of"/><xsd:enumeration value="Terms and 
+   value          : Conditions for"/><xsd:enumeration value="Bundles"/><xsd:enumeration value="Bundled by"/><xsd:enumeration value="Stocks"/><xsd:enumeration value="Stock of
+   value          : "/><xsd:enumeration value="Dependent"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="IndividualOrGroupType"><xsd:restriction base="xsd:string"
+   value          : ><xsd:enumeration value="Support Group"/><xsd:enumeration value="People"/><xsd:enumeration value="People Organization"/></xsd:restriction></xsd:simpleTyp
+   value          : e><xsd:simpleType name="FixedAssetType"><xsd:restriction base="xsd:string"><xsd:enumeration value="Yes"/><xsd:enumeration value="No"/><xsd:enumeration va
+   value          : lue="N/A"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="ScheduleTypeType"><xsd:restriction base="xsd:string"><xsd:enumeration value="Audit Sc
+   value          : hedule"/><xsd:enumeration value="Maintenance Schedule"/><xsd:enumeration value="Decommission Schedule"/></xsd:restriction></xsd:simpleType><xsd:simpleTyp
+   value          : e name="AssetClassType"><xsd:restriction base="xsd:string"><xsd:enumeration value="Hardware"/><xsd:enumeration value="Software"/><xsd:enumeration value="
+   value          : Service"/><xsd:enumeration value="Business Process"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="UserOwner_Radio_ButtonType"><xsd:restrictio
+   value          : n base="xsd:string"><xsd:enumeration value="Managed by"/><xsd:enumeration value="Owned by"/><xsd:enumeration value="Used by"/><xsd:enumeration value="Sup
+   value          : ported by"/><xsd:enumeration value="Approved by"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="DepreciatedType"><xsd:restriction base="xsd:st
+   value          : ring"><xsd:enumeration value="Yes"/><xsd:enumeration value="No"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="zRoleKeyType"><xsd:restriction 
+   value          : base="xsd:string"><xsd:enumeration value="Asset Manager"/><xsd:enumeration value="Owner"/><xsd:enumeration value="User"/></xsd:restriction></xsd:simpleTy
+   value          : pe><xsd:simpleType name="PriorityType"><xsd:restriction base="xsd:string"><xsd:enumeration value="PRIORITY_5"/><xsd:enumeration value="PRIORITY_4"/><xsd:
+   value          : enumeration value="PRIORITY_3"/><xsd:enumeration value="PRIORITY_2"/><xsd:enumeration value="PRIORITY_1"/></xsd:restriction></xsd:simpleType><xsd:simpleT
+   value          : ype name="APJ_AssetLifecycleStatusType"><xsd:restriction base="xsd:string"><xsd:enumeration value="Ordered"/><xsd:enumeration value="Received"/><xsd:enum
+   value          : eration value="Being Assembled"/><xsd:enumeration value="Deployed"/><xsd:enumeration value="In Repair"/><xsd:enumeration value="Down"/><xsd:enumeration v
+   value          : alue="End of Life"/><xsd:enumeration value="Transferred"/><xsd:enumeration value="Delete"/><xsd:enumeration value="In Inventory"/><xsd:enumeration value=
+   value          : "On Loan"/><xsd:enumeration value="Disposed"/><xsd:enumeration value="Reserved"/><xsd:enumeration value="Return to Vendor"/></xsd:restriction></xsd:simpl
+   value          : eType><xsd:simpleType name="z1D_Active_ApprovalType"><xsd:restriction base="xsd:string"><xsd:enumeration value="Yes"/></xsd:restriction></xsd:simpleType>
+   value          : <xsd:simpleType name="MarkAsDeletedType"><xsd:restriction base="xsd:string"><xsd:enumeration value="No"/><xsd:enumeration value="Yes"/></xsd:restriction>
+   value          : </xsd:simpleType><xsd:simpleType name="UrgencyType"><xsd:restriction base="xsd:string"><xsd:enumeration value="1-Critical"/><xsd:enumeration value="2-Hig
+   value          : h"/><xsd:enumeration value="3-Medium"/><xsd:enumeration value="4-Low"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="ImpactType"><xsd:restrict
+   value          : ion base="xsd:string"><xsd:enumeration value="1-Extensive/Widespread"/><xsd:enumeration value="2-Significant/Large"/><xsd:enumeration value="3-Moderate/L
+   value          : imited"/><xsd:enumeration value="4-Minor/Localized"/></xsd:restriction></xsd:simpleType><xsd:simpleType name="z1D_Assoc_StatusType"><xsd:restriction base
+   value          : ="xsd:string"><xsd:enumeration value="Proposed"/><xsd:enumeration value="Enabled"/><xsd:enumeration value="Offline"/><xsd:enumeration value="Obsolete"/><
+   value          : xsd:enumeration value="Archive"/><xsd:enumeration value="Delete"/></xsd:restriction></xsd:simpleType><xsd:element name="AuthenticationInfo" type="s0:Auth
+   value          : enticationInfo"/><xsd:complexType name="AuthenticationInfo"><xsd:sequence><xsd:element name="userName" type="xsd:string"/><xsd:element name="password" ty
+   value          : pe="xsd:string"/><xsd:element minOccurs="0" name="authentication" type="xsd:string"/><xsd:element minOccurs="0" name="locale" type="xsd:string"/><xsd:ele
+   value          : ment minOccurs="0" name="timeZone" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:schema></wsdl:types>  <wsdl:message name="New_GetList_Oper
+   value          : ation_0SoapIn">    <wsdl:part element="s0:New_GetList_Operation_0" name="parameters">    </wsdl:part>  </wsdl:message>  <wsdl:message name="New_G
+   value          : etList_Operation_0SoapOut">    <wsdl:part element="s0:New_GetList_Operation_0Response" name="parameters">    </wsdl:part>  </wsdl:message>  <wsdl
+   value          : :message name="ARAuthenticate">    <wsdl:part element="s0:AuthenticationInfo" name="parameters">    </wsdl:part>  </wsdl:message>  <wsdl:portType
+   value          :  name="New_Port_0PortType">    <wsdl:operation name="New_GetList_Operation_0">      <wsdl:input message="s0:New_GetList_Operation_0SoapIn">    </ws
+   value          : dl:input>      <wsdl:output message="s0:New_GetList_Operation_0SoapOut">    </wsdl:output>    </wsdl:operation>  </wsdl:portType>  <wsdl:bindin
+   value          : g name="New_Port_0SoapBinding" type="s0:New_Port_0PortType">    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>    
+   value          : <wsdl:operation name="New_GetList_Operation_0">      <soap:operation soapAction="urn:SISN_Get_Asset_UsedBy/New_GetList_Operation_0" style="document"/>
+   value          :       <wsdl:input>        <soap:header message="s0:ARAuthenticate" part="parameters" use="literal">        </soap:header>        <soap:body use="
+   value          : literal"/>      </wsdl:input>      <wsdl:output>        <soap:body use="literal"/>      </wsdl:output>    </wsdl:operation>  </wsdl:binding>
+   value          :   <wsdl:service name="SISN_Get_Asset_UsedByService">    <wsdl:port binding="s0:New_Port_0SoapBinding" name="New_Port_0Soap">      <soap:address loc
+   value          : ation="@LOCATION@"/>    </wsdl:port>  </wsdl:service></wsdl:definitions>\
+   ref-groups     : 0 
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\78\http://192.168.50.91:8080/arsys/WSDL/public/192.168.50.92/KAI_Get_Asset_UsedBy\
+   ref-groups     : 0 
+}
+end
