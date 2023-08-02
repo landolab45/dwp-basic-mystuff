@@ -6,7 +6,6 @@ const sisn_ws_url = "<URL_MIDTIER_REMEDY>:<URL_MIDTIER_PORT>";
 const sisn_ws_hostname = "<HOSTNAME_REMEDY>";
 const sisn_ws_name = "<WEBSERVICE_NAME>";
 
-var sisn_currentUserId = localStorage['currentUserId'];
 var sisn_flag_generate = 0;
 	
 function sisn_insertTableIntoContainers() {
