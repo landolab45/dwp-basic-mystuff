@@ -1,0 +1,62 @@
+<script http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" http-equiv="Pragma" content="no-cache" defer>
+
+const sisn_ws_username = "<USERNAME_REMEDY>";
+const sisn_ws_password = "<PASSWORD_REMEDY>";
+const sisn_ws_url = "<URL_MIDTIER_REMEDY>:<URL_MIDTIER_PORT>";
+const sisn_ws_hostname = "<HOSTNAME_REMEDY>";
+const sisn_ws_name = "<WEBSERVICE_NAME>";
+
+var sisn_currentUserId = localStorage['currentUserId'];
+var sisn_flag_generate = 0;
+	
+function sisn_insertTableIntoContainers() {
+    const sisn_aElements = document.getElementsByTagName('a');
+    for (let sisn_i = 0; sisn_i < sisn_aElements.length; sisn_i++) {
+      sisn_aElements[sisn_i].setAttribute('onclick', 'sisn_insertTableIntoContainers()');
+    }
+      
+    const sisn_tableElement = document.getElementById('sisn_table_mystuff');
+
+    if ((sisn_tableElement)||(sisn_flag_generate===1)) {
+      clearInterval(sisn_intervalId);  
+      console.log("Perulangan dihentikan.");
+    }
+    
+    else {
+      const sisn_containerElements = document.querySelectorAll('.container');
+  
+      sisn_containerElements.forEach((sisn_containerElement) => {
+        const sisn_parentTagName = sisn_containerElement.parentElement.tagName;
+        
+        if ((sisn_parentTagName==='DWP-CATALOG')&&(!sisn_tableElement)){
+          
+          var sisn_data = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:'+sisn_ws_name+'"><soapenv:Header><urn:AuthenticationInfo><urn:userName>'+sisn_ws_username+'</urn:userName><urn:password>'+sisn_ws_password+'</urn:password></urn:AuthenticationInfo></soapenv:Header><soapenv:Body><urn:New_GetList_Operation_0><urn:Qualification>((\'260100002\'="'+localStorage['currentUserId']+'")AND(\'260100005\'="Used by")AND(\'301328600\'!="End of Life")AND(\'301328600\'!="Delete")AND(\'301328600\'!="Return to Vendor")AND(\'400127400\'="BMC.ASSET")AND(\'400079600\'!="BMC_BUSINESSSERVICE"))</urn:Qualification><urn:startRecord></urn:startRecord><urn:maxLimit></urn:maxLimit></urn:New_GetList_Operation_0></soapenv:Body></soapenv:Envelope>';
+      		var sisn_xhr = new XMLHttpRequest();
+      		sisn_xhr.addEventListener("readystatechange", function () {
+      			if (this.readyState === 4) {
+      				if (this.status === 200) {
+      					const sisn_soapResponse = sisn_xhr.responseXML;
+                const sisn_ns0NameList = sisn_soapResponse.getElementsByTagName('ns0:Name');
+        
+                let sisn_tableHtmlContent = '<div class="catalog-section_root-wrapper border-bottom pad-btm-4"><div class="catalog-section-header"><div class="catalog-section-header-title h4">My Stuff</div></div>';
+                sisn_tableHtmlContent += `<table id="sisn_table_mystuff" class="table table-bordered" style="width:auto !important;min-width:25% !important;"><thead><tr><th style="color:#ffffff;font-weight:bold;background-color:rgb(60, 182, 206);background-image:-webkit-linear-gradient(left,rgba(0,0,0,.35) 0,rgba(0,0,0,.35) 60%,rgba(0,0,0,0) 100%);background-image:linear-gradient(90deg,rgba(0,0,0,.35) 0,rgba(0,0,0,.35) 60%,rgba(0,0,0,0) 100%);padding:.6rem .8rem !important;">Asset Name</th></tr></thead><tbody>${Array.from(sisn_ns0NameList).map(nameElement => `<tr><td style="padding:.6rem .8rem !important;"><span style="margin-right:.6rem;">&#10022;</span>${nameElement.textContent}</td></tr>`).join('')}</tbody></table>`;
+                sisn_tableHtmlContent += '</div></div>';
+                sisn_containerElement.insertAdjacentHTML('afterbegin', sisn_tableHtmlContent);
+      				} else {
+      					console.log("false: " + this.status);
+						clearInterval(sisn_intervalId);  
+      				}
+      			}
+      		});
+      	  sisn_xhr.withCredentials = false;
+      		sisn_xhr.open("POST", sisn_ws_url+"/arsys/services/ARService?server="+sisn_ws_hostname+"&webService="+sisn_ws_name);
+      		sisn_xhr.setRequestHeader("Content-Type", "text/plain");
+      		sisn_xhr.send(sisn_data);
+        }
+      });
+      sisn_flag_generate=1;
+    }
+    
+}
+const sisn_intervalId = setInterval(sisn_insertTableIntoContainers, 2000);
+</script>
