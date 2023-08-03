@@ -16,9 +16,9 @@ function sisn_insertTableIntoContainers() {
       
     const sisn_tableElement = document.getElementById('sisn_table_mystuff');
 
-    if ((sisn_tableElement)||(sisn_flag_generate===1)) {
+    if ((sisn_tableElement)&&(sisn_flag_generate===1)) {
       clearInterval(sisn_intervalId);  
-      console.log("Perulangan dihentikan.");
+      console.log("My Stuff has been loaded.");
     }
     
     else {
@@ -57,5 +57,27 @@ function sisn_insertTableIntoContainers() {
     }
     
 }
+
+window.addEventListener('load', function() {
+  sisn_insertTableIntoContainers();
+});
+
 const sisn_intervalId = setInterval(sisn_insertTableIntoContainers, 2000);
+</script>
+
+<script>
+var sisn_currentUserId = localStorage.getItem('currentUserId');
+var sisn_reload_intervalId; 
+
+function sisn_checkLocalStorageChange() {
+  if (document.title !== "Digital Workplace - Login" && document.title !== "Digital Workplace") {
+    if (localStorage.getItem('currentUserId') !== sisn_currentUserId) {
+	    clearInterval(sisn_reload_intervalId); 
+      var sisn_flag_generate = 0;
+      location.reload();
+    }
+  }
+}
+
+sisn_reload_intervalId = setInterval(sisn_checkLocalStorageChange, 1000);
 </script>
